@@ -1,0 +1,109 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-color: whitesmoke;
+}
+
+body {
+	height: 100%;
+	margin: 0;
+}
+
+header {
+	width: 100%;
+	line-height: 30px;
+	padding: 20px;
+}
+
+h1 {
+	position: absolute left;
+	max-width: 20%;
+	float: left;
+	font-size: 40px;
+	margin: 20px;
+	color: #33334d;
+}
+
+nav ul {
+	max-width: 80%;
+	float: right;
+	list-style-type: none;
+}
+
+nav li {
+	display: inline-block;
+}
+
+ul li a {
+	display: block;
+	text-align: center;
+	font-size: 16px;
+	padding: 10px 40px;
+	color: #33334d;
+	text-decoration: none;
+}
+
+ul li a:hover {
+	background-color: #333;
+	color: white;
+
+}
+
+.bg-image {
+    width: 100%;
+    height: auto;
+    padding: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+h1 {
+	position: absolute left;
+	max-width: 20%;
+	float: left;
+	font-size: 40px;
+	margin: 20px;
+	color: #33334d;
+}
+
+.bg-image {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+}
+
+@media only screen and (max-width: 768px) {
+
+h1 {
+	position: absolute left;
+	max-width: 20%;
+	float: left;
+	font-size: 40px;
+	margin: 20px;
+	padding: 20px;
+	color: #33334d;
+}
+
+.bg-image {
+	width: 90%;
+	padding: 20px;
+	display: flex;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+nav h1, nav ul, nav ul li {
+	min-width: 100%;
+	display: block;
+	float: none;
+	text-align: center;
+	margin: 0;
+}
+
+}
